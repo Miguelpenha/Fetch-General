@@ -12,7 +12,7 @@
     "fetch-all": "./dist/index.js"
   },
   "keywords": [],
-  "author": "Miguel Penha <miguel.penha1@gmail.com> (https://portfolio-sand-xi.vercel.app/)",
+  "author": "Miguel Penha <miguel.penha1@gmail.com> (https://portfolio-miguelpenha.vercel.app)",
   "license": "MIT",
   "devDependencies": {
     "@types/chalk": "^2.2.0",
