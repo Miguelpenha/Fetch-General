@@ -1,4 +1,4 @@
-# Fetch-General
+# Fetch-General-Repositories
  ### Verificar todos os repositórios de uma pasta
 
 ## Instalação (não necessário caso use npx)
