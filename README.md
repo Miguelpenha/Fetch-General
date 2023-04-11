@@ -9,3 +9,6 @@
 
 ### Você também pode alterar ``DIST_SRC`` no arquivo ``.env`` para usar esse local como padrão, assim bastando executar
     npx fetch-general
+
+## Instalação (não necessário)
+    npm install fetch-general -g
