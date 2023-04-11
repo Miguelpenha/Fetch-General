@@ -9,7 +9,6 @@ import command from './command'
 import { greenBright as success } from 'chalk'
 import getRepositories from './getRepositories'
 
-console.log(process.argv)
 const repositories = getRepositories(process.env.DIST_SRC || process.argv[2] || '.')
 
 repositories.map(repository => 
