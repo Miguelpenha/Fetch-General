@@ -1,5 +1,5 @@
 {
-  "name": "fetch-general-repositories-repositories",
+  "name": "fetch-general-repositories",
   "version": "1.0.0",
   "description": "Verificar todos os repositórios de uma pasta",
   "main": "dist/index.js",
@@ -9,7 +9,7 @@
     "dev": "ts-node-dev --respawn --ignore-watch node_modules src/index.ts"
   },
   "bin": {
-    "fetch-general-repositories-repositories": "./dist/index.js"
+    "fetch-general-repositories": "./dist/index.js"
   },
   "keywords": [],
   "author": "Miguel Penha <miguel.penha1@gmail.com> (https://portfolio-miguelpenha.vercel.app)",
