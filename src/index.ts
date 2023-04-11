@@ -9,13 +9,13 @@ import fs from 'fs'
 import command from './command'
 import { greenBright as success } from 'chalk'
 
-interface Irepository {
+interface IRepository {
     url: string
     name: string
     path: string
 }
 
-const repositories: Irepository[] = []
+const repositories: IRepository[] = []
 const folderIgnore = ['node_modules']
 
 const getRepositories = (source: string) =>
@@ -40,7 +40,7 @@ const getRepositories = (source: string) =>
 getRepositories(process.env.DIST_SRC)
 
 repositories.map(repository => 
-    command(`cd ${repository.path} && git fetch`, (err, response) => 
+    command(`cd ${repository.path} && git fetch`, () => 
         console.log(success(`>> Repository ${repository.name} checked`))
     )
 )
