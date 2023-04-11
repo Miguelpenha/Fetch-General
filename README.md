@@ -2,13 +2,13 @@
  ### Verificar todos os repositórios de uma pasta
 
 ## Instalação (não necessário caso use npx)
-    npm install fetch-general -g
+    npm install fetch-general-repositories -g
 
 ## Usando
 ### Buscar repositórios no local atual
-    npx fetch-general ou fetch-general
+    npx fetch-general-repositories ou fetch-general-repositories
 ### Buscar repositórios no local especificado
-    npx fetch-general ./folder ou fetch-general ./folder
+    npx fetch-general-repositories ./folder ou fetch-general-repositories ./folder
 
 ### Você também pode alterar ``DIST_SRC`` no arquivo ``.env`` para usar esse local como padrão, assim bastando executar
-    npx fetch-general ou fetch-general
+    npx fetch-general-repositories ou fetch-general-repositories
