@@ -1,12 +1,11 @@
 {
   "name": "fetch-general",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Verificar todos os repositórios de uma pasta",
   "main": "dist/index.js",
   "scripts": {
     "build": "npx tsc && npm link",
     "start": "npx tsc && node dist/index.js",
-    "publish": "npm run build && npm publish",
     "dev": "ts-node-dev --respawn --ignore-watch node_modules src/index.ts"
   },
   "bin": {
