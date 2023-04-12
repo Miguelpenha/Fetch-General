@@ -11,7 +11,7 @@
   "bin": {
     "fetch-general-repositories": "./dist/index.js"
   },
-  "keywords": [],
+  "keywords": ["fetch", "git", "repositories", "node", "cli"],
   "author": "Miguel Penha <miguel.penha1@gmail.com> (https://portfolio-miguelpenha.vercel.app)",
   "license": "MIT",
   "devDependencies": {
