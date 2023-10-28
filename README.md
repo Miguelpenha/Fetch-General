@@ -24,7 +24,15 @@
 
     fetch-general-repositories ./folder
 
-### Você também pode alterar ``DIST_SRC`` no arquivo ``config.json`` para alterar o local padrão de busca, assim bastando executar
+### Abrir arquivo de configuração (``config.json``)
+
+    npx fetch-general-repositories config
+
+   ou
+
+    fetch-general-repositories config
+
+### Você pode alterar ``DIST_SRC`` no arquivo ``config.json`` para alterar o local padrão de busca, assim bastando executar
 
     npx fetch-general-repositories
 
