@@ -1,6 +1,6 @@
 # Fetch-General-Repositories
 
-### Verifica todos os repositórios de uma pasta, usando o ``git fetch``
+## Verifica todos os repositórios de uma pasta, usando o ``git fetch``
 
 ## Instalação (não necessário caso use npx)
 
